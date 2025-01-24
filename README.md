@@ -34,12 +34,12 @@ This project is divided into two main stages:
 ## Key Findings
 
 1. **Correlation Analysis**:
-   - Pearson's correlation coefficient \(r = 0.668\) indicates a moderate positive relationship between HDI and Life Expectancy.
-   - Hypothesis testing confirmed the statistical significance of this relationship (\(p\)-value < 0.05).
+   - Pearson's correlation coefficient `r = 0.668` indicates a moderate positive relationship between HDI and Life Expectancy.
+   - Hypothesis testing confirmed the statistical significance of this relationship (`p-value < 0.05`).
 
 2. **Regression Model**:
-   - Linear regression equation: \( \text{Life Expectancy} = 38.315 + 46.950 \cdot \text{HDI} \).
-   - \( R^2 = 0.4465 \): About 44.65% of the variation in Life Expectancy is explained by HDI.
+   - Linear regression equation: `Life Expectancy = 38.315 + 46.950 * HDI`.
+   - `R² = 0.4465`: About 44.65% of the variation in Life Expectancy is explained by HDI.
    - Residual analysis showed no significant violations of model assumptions.
 
 3. **Model Limitations**:
@@ -48,8 +48,8 @@ This project is divided into two main stages:
 
 ## Requirements
 
-- **R version**: \(\geq 4.0.0\)
-- **R libraries**: ggplot2, dplyr, car, lmtest
+- **R version**: `>= 4.0.0`
+- **R libraries**: `ggplot2`, `dplyr`, `car`, `lmtest`
 
 ## Usage
 
