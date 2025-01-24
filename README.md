@@ -22,17 +22,20 @@ This project is divided into two main stages:
 - **`script.r`**: Contains code for data preprocessing, exploratory data analysis, and visualization.
 - **`script2.r`**: Implements linear regression modeling, statistical testing (ANOVA, Shapiro-Wilk, Ljung-Box), and model diagnostics.
 
+### Reports
+- **`LinconAviladeSouza_etapa2.pdf`**: Documents the exploratory data analysis and statistical summaries of the dataset.
+- **`LinconAviladeSouza_etapa3.pdf`**: Details the regression analysis, model evaluation, and conclusions.
+
 ### Database
-- **`database.txt`**: Includes HDI and Life Expectancy data for the top 50 countries globally, sourced from:
+- **Dataset**: The dataset includes HDI and Life Expectancy data for the top 50 countries globally, sourced from:
   - **Human Development Index (HDI)**: Extracted from the UNDP Human Development Report 2022, which evaluates development based on health, education, and living standards.
   - **Life Expectancy**: Collected from the CIA World Factbook 2022, representing the average years a person is expected to live at birth.
-
 
 ## Key Findings
 
 1. **Correlation Analysis**:
-   - Pearson's correlation coefficient (r = 0.668) indicates a moderate positive relationship between HDI and Life Expectancy.
-   - Hypothesis testing confirmed the statistical significance of this relationship (p-value < 0.05).
+   - Pearson's correlation coefficient \(r = 0.668\) indicates a moderate positive relationship between HDI and Life Expectancy.
+   - Hypothesis testing confirmed the statistical significance of this relationship (\(p\)-value < 0.05).
 
 2. **Regression Model**:
    - Linear regression equation: \( \text{Life Expectancy} = 38.315 + 46.950 \cdot \text{HDI} \).
@@ -45,7 +48,7 @@ This project is divided into two main stages:
 
 ## Requirements
 
-- **R version**: >= 4.0.0
+- **R version**: \(\geq 4.0.0\)
 - **R libraries**: ggplot2, dplyr, car, lmtest
 
 ## Usage
