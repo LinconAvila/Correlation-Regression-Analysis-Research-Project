@@ -5,7 +5,7 @@ library(e1071)
 library(lmtest)
 
 # Load data from the file "database.txt"
-data <- read.table("database.txt", header = TRUE, sep = "\t", dec = ",")
+data <- read.table("database/database.txt", header = TRUE, sep = "\t", dec = ",")
 str(data)
 
 # Load data

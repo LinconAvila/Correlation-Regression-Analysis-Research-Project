@@ -1,7 +1,7 @@
 #First determine working directory with function setwd()
 
 # Load data from the file "database.txt"
-data <- read.table("database.txt", header = TRUE, sep = "\t", dec = ",")
+data <- read.table("database/database.txt", header = TRUE, sep = "\t", dec = ",")
 str(data)
 
 # Define functions to calculate skewness and kurtosis measures
