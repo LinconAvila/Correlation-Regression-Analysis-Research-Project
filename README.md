@@ -26,6 +26,12 @@ This project is divided into two main stages:
 - **`database.txt`**: Includes HDI and Life Expectancy data for the top 50 countries globally, sourced from:
   - **Human Development Index (HDI)**: Extracted from the UNDP Human Development Report 2022, which evaluates development based on health, education, and living standards.
   - **Life Expectancy**: Collected from the CIA World Factbook 2022, representing the average years a person is expected to live at birth.
+ 
+### Research Papers and Slides
+
+- Link to Folder: [Here](https://drive.google.com/drive/folders/1Fd6u5p-lweRe2Og5dW7qOepyhS0gsz8Y?usp=sharing)
+
+This folder contains research papers and a slide presentation (in Portuguese) summarizing the key findings of the study.
 
 ## Key Findings
 
